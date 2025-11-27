@@ -72,11 +72,11 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-  webServer: {
-    command: 'npm run start-prod',
-    url: 'http://localhost:5000',
-    timeout: 120000, // Aumenta para 120 segundos
-    reuseExistingServer: false,
-  },
+  // webServer: {
+  //   command: 'npm run start-prod',
+  //   url: 'http://localhost:5000',
+  //   timeout: 120000, // Aumenta para 120 segundos
+  //   reuseExistingServer: false,
+  // },
 })
 
